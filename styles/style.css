@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: black;
     color: white;
@@ -14,15 +14,33 @@ body {
     padding: 0;
 }
 
-.apresentacao{                                                                        
-    margin: 10%;
+.cabecalho__menu__link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+.cabecalho{
+ padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    gap: 80px;
+}
+
+.apresentacao{                                                                        
+    margin: 5% 15%;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    gap: 40px;
 }
 
 .apresentacao__conteudo{
-    width: 550px;
+    width: 550x;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -71,6 +89,7 @@ body {
 .apresentacao__links__link:hover{
     background-color: #272727;
     color: crimson;
+    padding: 3%;
 }
 
 div:hover{
@@ -85,3 +104,17 @@ p:hover{
     color:crimson;
 }
 
+.rodape{
+    color:black;
+    background-color: #22D4FD;
+    padding: 24px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.apresentacao__conteudo__paragrafo a{
+    text-decoration: none;
+    color: #22D4FD;
+}
