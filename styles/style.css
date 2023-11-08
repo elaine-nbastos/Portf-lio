@@ -33,7 +33,8 @@ body {
 
 .apresentacao{                                                                        
     margin: 5% 15%;
-    display: flex;
+    display:flex;
+    flex-direction: row;
     align-items:center;
     justify-content:space-between;
     gap: 40px;
@@ -94,14 +95,6 @@ body {
 
 div:hover{
     color: crimson;
-}
-
-h1:hover{
-    color:crimson;
-}
-
-p:hover{
-    color:crimson;
 }
 
 .rodape{
