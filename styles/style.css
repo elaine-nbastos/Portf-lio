@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
 :root{
-    --cor-primaria:#001524;
+    --cor-primaria:#2a9d8f;
     --cor-secundaria: #FDE5D4;
-    --cor-terciaria: #D6CC99;
-    --cor-hover: #445d48;
+    --cor-terciaria: #f4a261;
+    --cor-hover: #264653;
 
     --fonte-primaria:'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -26,7 +26,7 @@ body {
 
 .cabecalho__menu__link{
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -114,13 +114,13 @@ div:hover{
 }
 
 .rodape{
-    color:var(--cor-hover);
-    background-color: var(--cor-terciaria);
+    color:var(--cor-terciaria);
+    background-color: var(--cor-primaria);
     padding: 24px;
     text-align: center;
-    font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
+    border-top:  1px solid var(--cor-terciaria) ;
 }
 
 .apresentacao__conteudo__paragrafo a{
@@ -131,7 +131,7 @@ div:hover{
 
 @media(min-width:401px) and (max-width:1024px){
     body {
-        background-color: #3a2d31;
+        background-color: var(--cor-primaria);
         color: var(--cor-secundaria);
     }
     
@@ -176,7 +176,7 @@ div:hover{
 
 @media(min-width:50px) and (max-width:400px){
     body {
-        background-color: #AF2655;
+        background-color: var(--cor-primaria);
         color: var(--cor-secundaria);
     }
     
