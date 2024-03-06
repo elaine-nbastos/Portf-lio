@@ -1,0 +1,302 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --cor-planoDeFundo: #101622;
+
+    --cor-fonte-primaria: #ffffff70;
+    --cor-fonte-secundaria: #7717d3;
+    --cor-fonte-terciaria: #de639a;
+    --cor-fonte-padrao: #fff;
+    --cor-fonte-quaternaria: #f7b2b7;
+
+    --cor-fonte-hover: #7f2982;
+    --cor-planoDeFundo-hover: #ddbea8;
+
+    --fonte-primaria:'Open Sans', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+    --fonte-terciaria: "Poppins", sans-serif;
+
+    --cor-btn: linear-gradient(90deg, rgba(121, 48, 190, 0.648) 100%, rgba(130, 87, 230, 0.8) .2%);
+}
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: var(--fonte-primaria);
+    font-size: 1rem;
+    font-weight: 100;
+    background-color: var(--cor-planoDeFundo);
+    color: var(--cor-fonte-padrao);
+}
+
+
+/* INICIO DE HEADER */
+.container{
+    padding: 2% 0% 0% 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__menu{
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: var(--cor-fonte-primaria);
+    display: flex;
+    text-decoration: none;
+}
+/* FIM DE HEADER */
+
+/* INICIO DE APRESENTAÇÃO*/
+
+.apresentacao{                                                                        
+    margin: 5% 15%;
+    display:flex;
+    align-items:start;
+    justify-content:space-between;
+    gap: 50px;
+}
+
+.apresentacao__conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.apresentacao__conteudo__intro{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 3rem;
+    font-family: var(--fonte-terciaria);
+    font-weight: 400;
+    color: var(--cor-fonte-padrao)
+}
+
+.titulo__destaque{
+    color: var(--cor-fonte-terciaria);
+    font-weight: 500;
+    font-size: 3.5rem;
+}
+
+.apresentacao__conteudo__subtitulo{
+    padding: 0;
+    color: var(--cor-fonte-primaria);
+    font-weight: 100;
+}
+
+.actions{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.actions__cv{
+    width: 9rem;
+    background: linear-gradient(90deg, rgba(121, 48, 190, 0.648) 100%, rgba(130, 87, 230, 0.8) .2%);
+    transform: scale(0.95);
+    color: var(--cor-fonte-padrao);
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    transition: 0.3s;
+    text-decoration: none;
+    border: none;
+}
+
+.actions a{
+    justify-content: center;
+}
+
+.actions__email{
+    width: 9rem;
+    background: linear-gradient(90deg, rgba(121, 48, 190, 0.648) 100%, rgba(130, 87, 230, 0.8) .2%);
+    transform: scale(0.95);
+    color: var(--cor-fonte-padrao);
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    align-items: center;
+    justify-content: center;
+    border: 0.1rem solid var(--cor-fonte-hover);
+    border-radius: 2rem;
+    transition: 0.3s;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.apresentacao__imagem{
+    align-items:end;
+    width: 30%;
+}
+
+
+/* FIM DE APRESENTAÇÃO*/
+
+/* INICIO DE SOBRE MIM */
+
+.about{
+    width: 80%;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin:15% 8%;
+    transform:translateX(7) ;
+    opacity: 1;
+    transition: 0.5s;
+    gap:1rem;
+    padding: 3rem 1rem;
+}
+
+.about__title{
+    padding: 1rem;
+    color: var(--cor-fonte-padrao);
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.about__conteudo__paragrafo{
+    padding: 1rem;
+    color: var(--cor-fonte-primaria);
+    font-size: 1.5rem;
+}
+
+/* FIM DE SOBRE MIM*/
+
+
+/* INICIO DE CONTATOS*/
+
+.contato{
+    width: 80%;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin:15% 8%;
+    transform:translateX(7) ;
+    opacity: 1;
+    transition: 0.5s;
+    gap:1rem;
+    padding: 3rem 1rem;
+}
+
+.title{
+    padding: 1rem;
+    color: var(--cor-fonte-padrao);
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.contato__links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+@media(min-width:401px) and (max-width:1024px){
+    body {
+        background-color: var(--cor-planoDeFundo);
+        color: var(--cor-fonte-padrao);
+    }
+    
+    .cabecalho{
+        padding: 5%;
+        gap: 41px;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+        gap: 25px;
+        font-size: 1rem;
+
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: auto;
+        margin: 5% 5%;
+        align-items:center;
+        justify-content:space-between;
+        gap: 40px;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
+    .apresentacao__conteudo__titulo{
+        font-size: 1.5rem;
+    }
+
+    .apresentacao__conteudo__paragrafo{
+        font-size: 1rem;
+    }
+
+    .apresentacao__links__subtitulo{
+        font-size: 1rem;
+    }
+
+    .rodape{
+        font-size: 1rem;
+    }
+}
+
+@media(min-width:50px) and (max-width:400px){
+    body {
+        background-color: var(--cor-planoDeFundo);
+        color: var(--cor-fonte-padrao);
+    }
+    
+    .cabecalho{
+        padding: 5%;
+        gap: 50px;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+        gap:10px;
+        font-size: 1.25rem;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: auto;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
+    .apresentacao__conteudo__titulo{
+        font-size: 1.25rem;
+        justify-content: center;
+    }
+   
+    .apresentacao__conteudo__paragrafo{
+        font-size: 0.75rem;
+    }
+
+    .apresentacao__imagem{
+        width: 100%;
+
+    }
+        
+    }
+
