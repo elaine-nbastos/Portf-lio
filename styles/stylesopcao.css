@@ -89,18 +89,18 @@ i#burguer:hover{
 /* INICIO DE APRESENTAÇÃO*/
 
 .container__apresentacao{                                                                        
-    margin: 5%;
+    margin: 5% 20%;
     display:flex;
     align-items:center;
     justify-content:space-between;
-    gap: 50px;
+    gap: 80px;
 }
 
 .apresentacao__conteudo{
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 4rem;
 }
 
 .apresentacao__conteudo__intro{
@@ -180,7 +180,7 @@ i#burguer:hover{
 /* INICIO DE SOBRE MIM */
 
 .about{
-    margin: 5%;
+    margin: 25% 30%;
     display:flex;
     align-items:center;
     justify-content:space-between;
@@ -190,7 +190,7 @@ i#burguer:hover{
     transform:translateX(7) ;
     opacity: 1;
     transition: 0.5s;
-    gap:1rem;
+    gap:8rem;
     padding: 3rem 1rem;
 }
 
@@ -309,7 +309,7 @@ i#burguer:hover{
 
 /* FIM DE FOOTER */
 
-@media(min-width:401px) and (max-width:1024px){
+@media screen (max-width:1024px){
     body {
         background-color: var(--cor-planoDeFundo);
         color: var(--cor-fonte-padrao);
