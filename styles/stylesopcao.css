@@ -309,7 +309,8 @@ i#burguer:hover{
 
 /* FIM DE FOOTER */
 
-@media screen (max-width:1024px){
+@media (max-width:724px) {
+
     body {
         background-color: var(--cor-planoDeFundo);
         color: var(--cor-fonte-padrao);
@@ -355,7 +356,7 @@ i#burguer:hover{
     }
 }
 
-@media(min-width:50px) and (max-width:400px){
+@media (max-width:400px){
     body {
         background-color: var(--cor-planoDeFundo);
         color: var(--cor-fonte-padrao);
@@ -393,7 +394,5 @@ i#burguer:hover{
     .apresentacao__imagem{
         width: 100%;
 
+    }        
     }
-        
-    }
-
