@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="./assets/script.js" defer></script>
+    <script src="./assets/script.js" async></script>
     <link rel="stylesheet" href="./styles/stylesopcao.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
@@ -13,18 +13,15 @@
 <body>
     <header>
         <div class="header">
-            <div href="" class="menu">
                 <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
-                <span>Menu</span>
-                <menu id="menu__itens">
-                    <ul class="menu__item">
-                        <li><a href="#" class="item">item 1</a></li>
-                        <li><a href="#" class="item">item 2</a></li>
-                        <li><a href="#" class="item">item 3</a></li>
-                        <li><a href="#" class="item">item 4</a></li>
+                <menu id="itens">
+                    <ul>
+                        <li><a href="#container about" class="item">Sobre mim</a></li>
+                        <li><a href="#container habilidades" class="item">Habilidades</a></li>
+                        <li><a href="#container projetos" class="item">Projetos</a></li>
+                        <li><a href="#container minhasRedes" class="item">Minhas Redes</a></li>
                     </ul>
                 </menu>
-            </div>
             <a href="#sobre" class="menu__title">
                 <h2>Portfólio</h2>
             </a>
@@ -54,76 +51,79 @@
             <img class="apresentacao__imagem" src="./assets/Imagem do WhatsApp de 2024-03-05 à(s) 16.39.56_56efff9f.jpg"
             alt="foto de Elaine Bastos">
         </section>
-        <section class="container about">
+        <section id="container about" class="container about">
             <h2 class="about__title">Sobre mim</h2>   
             <p class="about__conteudo__paragrafo"> Desenvolvedora Front-end com conhecimento em React.js,
                 JavaScrit, TypeScript, CSS e HTML. Apaixonada por tecnologia e com o objetivo de tornar o mundo virtual
                 cada vez mais acessível!
             </p>
         </section>
-        <section class="container habilidades">
+        <section id="container habilidades" class="container habilidades">
             <h2 class="title">Habilidades</h2>
             <div class="box">
-            <p class="box__item">HTML5</p>
-                <img src="" alt="" />
-            </div>
-            <div class="box">
-                <p class="box__item">CSS</p>
-                <img src="" alt="" />
-            </div>
-            <div class="box">
-                <p class="box__item">JavaScrit</p>
-                <img src="" alt="" />
-            </div>
-            <div class="box">
-                <p class="box__item">TypeScript</p>
-                <img src="" alt="" />
-            </div>
-            <div class="box">
-                <p class="box__item">React</p>
-                <img src="" alt="" />
-            </div>
-            <div class="box">
-                <p class="box__item">Figma</p>
-                <img src="" alt="" />
-            </div>
-            <div class="box">
-                <p class="box__item">NPM</p>
-                <img src="" alt="" />
+                <div class="cards card1">
+                    <span>HTML5</span>
+                    <img src="./assets/html5-100.svg" alt="" />
+
+                </div>
+                <div class="cards card2">
+                    <span>CSS</span>
+                    <img src="./assets/css3-100.svg" alt="css3" />
+                </div>
+                <div class="cards card3">
+                    <span>JavaScrit</span>
+                    <img src="./assets/javascript-100.svg" alt="javascript" />
+                </div>
+                <div class="cards card4">
+                    <span>TypeScript</span>
+                    <img src="./assets/typescript-100.svg" alt="" />
+                </div>
+                <div class="cards card5">
+                    <span>React</span>
+                    <img src="./assets/React-100.svg" alt="" />
+                </div>
+                <div class="cards card6">
+                    <span>Figma</span>
+                    <img src="./assets/icons8-figma-96.png" alt="" />
+                </div>
+                <div class="cards card7">
+                    <span>NPM</span>
+                    <img src="./assets/npm-96.png" alt="" />
+                </div>
             </div>
         </section>
-        <section class="container projetos">
+        <section id="container projetos" class="container projetos">
             <h2 class="title">Projetos</h2>
-            <div class="box">
-                <p class="box__item">Título do projeto</p>
+            <div class="movies">
+                <p class=" movies__item">Alurabooks</p>
+                <a href="https://elaine-nbastos.github.io/Alurabooks/" type="link">
+            </div>
+            <div class="movies">
+                <p class="movies__item">Calmaria Spa</p>
+                <a href="https://elaine-nbastos.github.io/CalmariaSpa/" type="link">
+            </div>
+            <div class="movies">
+                <p class="movies__item">Título do projeto</p>
                 <a href="">
             </div>
-            <div class="box">
-                <p class="box__item">Título do projeto</p>
+            <div class="movies">
+                <p class="movies__item">Título do projeto</p>
                 <a href="">
             </div>
-            <div class="box">
-                <p class="box__item">Título do projeto</p>
+            <div class="movies">
+                <p class="movies__item">Título do projeto</p>
                 <a href="">
             </div>
-            <div class="box">
-                <p class="box__item">Título do projeto</p>
+            <div class="movies">
+                <p class="movies__item">Título do projeto</p>
                 <a href="">
             </div>
-            <div class="box">
-                <p class="box__item">Título do projeto</p>
-                <a href="">
-            </div>
-            <div class="box">
-                <p class="box__item">Título do projeto</p>
-                <a href="">
-            </div>
-            <div class="box">
-                <p class="box__item">Título do projeto</p>
+            <div class="movies">
+                <p class="movies__item">Título do projeto</p>
                 <a href="">
             </div>
         </section>
-        <section class="container contato">
+        <section id="container contato" class="container contato">
             <h2 class="title">Contatos</h2>
             <div class="contato__links">
                 <a class="contato__links__item" href="https://instagram.com/elaineb80/">
@@ -132,7 +132,7 @@
                     <img src="" alt="Logotipo do WhatsApp"> WhatsApp</a>
             </div>
         </section>
-        <section class="container minhasRedes">
+        <section id="container minhasRedes" class="container minhasRedes">
             <div class="minhasRedes__links">
                 <h2 class="title">Acesse minhas redes:</h2>
                 <a class="minhasRedes__links__item" href="https://instagram.com/elaineb80/">

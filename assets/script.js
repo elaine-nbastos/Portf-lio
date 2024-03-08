@@ -1,7 +1,7 @@
 function clickMenu(){
-    if(menu__itens.style.display == "block"){
-        menu__itens.display = "none"
+    if(itens.style.display == "block"){
+        itens.style.display = "none"
     }else{
-        menu__itens.display = "block"
+        itens.style.display = "block"
     };
 }

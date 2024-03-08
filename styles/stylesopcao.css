@@ -48,9 +48,6 @@ body {
     padding: 2% 0% 0% 2%;
     display: flex;
     justify-content: space-between;
-}
-
-.menu{
     font-family: var(--fonte-primaria);
     font-size: 1.5rem;
     font-weight: 100;
@@ -59,7 +56,7 @@ body {
     text-decoration: none;
 }
 
-menu{
+#itens{
     display: none;
 }
 
@@ -76,6 +73,17 @@ i#burguer:hover{
     background-color: transparent;
     color: var(--cor-fonte-hover);
 }
+
+.burguer .itens ul li{
+    list-style: none;
+}
+
+.item{
+    text-decoration: none;
+}
+
+
+
 /* FIM DE HEADER */
 
 /* INICIO DE APRESENTAÇÃO*/
@@ -199,10 +207,72 @@ i#burguer:hover{
     font-size: 1.5rem;
 }
 
-/* FIM DE SOBRE MIM*/
+/* FIM DE SOBRE MIM */
 
+/* INICIO DE HABILIDADES */
 
-/* INICIO DE CONTATOS*/
+.habilidade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+
+.title{
+    margin: 8rem;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.box{
+    margin: 8rem 12rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 16px;
+    margin-bottom: 1px;
+}
+
+.cards{
+    background-color: var(--cor-fonte-quaternaria);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 190px;
+    height: 170px;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    border-bottom: 15px solid var(--cor-fonte-hover);
+    
+}
+
+.cards img{
+    width: 100px;
+    height: 100px;
+    align-content: end;
+}
+
+.box span{
+    padding: 16px;
+    position: relative;
+    color: var(--cor-fonte-hover);
+    font-size: 24px;
+    font-weight: 300;
+}
+
+/* FIM DE HABILIDADES */
+
+/* INICIO DE PROJETOS */
+
+/* FIM DE PROJETOS */
+
+/* INICIO DE MINHAS REDES */
+
+/* FIM DE MINHAS REDES */
+
+/* INICIO DE CONTATO */
 
 .contato{
     width: 80%;
@@ -232,6 +302,12 @@ i#burguer:hover{
     align-items: center;
     gap: 32px;
 }
+
+/* FIM DE CONTATO */
+
+/* INICIO DE FOOTER */
+
+/* FIM DE FOOTER */
 
 @media(min-width:401px) and (max-width:1024px){
     body {
