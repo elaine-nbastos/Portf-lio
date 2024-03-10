@@ -185,7 +185,7 @@ div:hover{
     }
 }
 
-@media(min-width:50px) and (max-width:400px){
+@media (max-width:400px){
     body {
         background-color: var(--cor-primaria);
         color: var(--cor-secundaria);
@@ -202,7 +202,7 @@ div:hover{
         font-size: 1.25rem;
     }
 
-    .apresentacao{
+    .container__apresentacao{
         flex-direction: column-reverse;
         padding: auto;
     }
