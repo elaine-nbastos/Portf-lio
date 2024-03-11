@@ -15,7 +15,8 @@
         <div class="header">
             <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
             <menu id="itens">
-                    <ul class="list">
+                <ul class="list">
+                        <li class="list__itens"><a href="" class="item">Home</a></li>
                         <li class="list__itens"><a href="#container about" class="item">Sobre mim</a></li>
                         <li class="list__itens"><a href="#container habilidades" class="item">Habilidades</a></li>
                         <li class="list__itens"><a href="#container projetos" class="item">Projetos</a></li>
@@ -23,18 +24,20 @@
                     </ul>
             </menu>
             <a href="#sobre" class="menu__title">
-                <h2>Portfólio</h2>
+                <h2></h2>
             </a>
             <div class="container__toggle">
                 <input type="checkbox" name="checkbox" id="checkbox">
                     <label for="checkbox" class="label">
+                        <i class="dark"></i>
+                        <i class="light"></i>
                         <div class="box"></div>
                     </label>
             </div>
         </div>
     </header>
     <main>
-        <section class="container__apresentacao">
+        <section id="container__apresentacao" class="container__apresentacao">
             <div class="apresentacao__conteudo">
                 <div class="apresentacao__conteudo__intro">
                     <h1 class="apresentacao__conteudo__titulo">Olá, eu sou a
@@ -49,7 +52,7 @@
                 </div>
             </div>
             <img class="apresentacao__imagem" src="./assets/Imagem do WhatsApp de 2024-03-05 à(s) 16.39.56_56efff9f.jpg"
-            alt="foto de Elaine Bastos">
+            alt="foto de Elaine Bastos"/>
         </section>
         <section id="container about" class="container about">
             <h2 class="about__title">Sobre mim</h2>   
@@ -95,57 +98,74 @@
         <section id="container projetos" class="container projetos">
             <h2 class="title">Projetos</h2>
             <div class="movies">
-                <p class=" movies__item">Alurabooks</p>
-                <a href="https://elaine-nbastos.github.io/Alurabooks/" type="link">
-                    <img src="./assets/alurabooks.png" alt="" id="aluraBooks">
-            </div>
-            <div class="movies">
-                <p class="movies__item">Calmaria Spa</p>
-                <a href="https://elaine-nbastos.github.io/CalmariaSpa/" type="link">
-                    <img src="./assets/calmaria.png" alt="" id="calmaria">
-            </div>
-            <div class="movies">
-                <p class="movies__item">Título do projeto</p>
-                <a href="">
-            </div>
-            <div class="movies">
-                <p class="movies__item">Pomodoro</p>
-                <a href="https://elaine-nbastos.github.io/Fokus/" type="link">
-                    <img src="./assets/Pomodoro.png" alt="" id="pomodoro">
-            </div>
-            <div class="movies">
-                <p class="movies__item">Culturama</p>
-                <a href="https://elaine-nbastos.github.io/Culturama/" type="link">
-                    <img src="./assets/$culturama.png" alt="" id="culturama">
-            </div>
-            <div class="movies">
-                <p class="movies__item">Título do projeto</p>
-                <a href="">
-            </div>
-            <div class="movies">
-                <p class="movies__item">Título do projeto</p>
-                <a href="">
-            </div>
-        </section>
-        <section id="container contato" class="container contato">
-            <h2 class="title">Contatos</h2>
-            <div class="contato__links">
-                <a class="contato__links__item" href="https://instagram.com/elaineb80/">
-                    <img src="" alt="Logotipo de Carta"> E-mail</a>
-                <a class="contato__links__item" href="">
-                    <img src="./assets/whatsapp-100.png" alt="Logotipo do WhatsApp"> WhatsApp</a>
+                <div class=" movies__item">
+                    <a href="https://elaine-nbastos.github.io/Alurabooks/" type="link">
+                        <p >Alurabooks</p>
+                        <img class="movies__img" src="./assets/alurabooks.png" alt="Imagem do projeto Alurabooks" id="aluraBooks">
+                    </a>
+                </div>            
+                <div class="movies__item">
+                    <a href="https://elaine-nbastos.github.io/CalmariaSpa/" type="link">
+                        <p >Calmaria Spa</p>
+                        <img class="movies__img" src="./assets/calmaria.png" alt="Imagem do projeto Calmaria Spa" id="calmaria">
+                    </a>
+                </div>
+                <div class="movies__item">
+                    <a href="https://elaine-nbastos.github.io/Fokus/" type="link">
+                        <p >Pomodoro</p>
+                        <img class="movies__img" src="./assets/Pomodoro.png" alt="" id="pomodoro">
+                    </a>
+                </div>
+                <div class="movies__item">
+                    <a href="https://elaine-nbastos.github.io/Culturama/" type="link">
+                        <p >Culturama</p>
+                        <img class="movies__img" src="./assets/culturama.png" alt="Imagem do projeto Culturama" id="culturama">
+                    </a>
+                </div>
+                <div class="movies__item">
+                    <a href="https://elaine-nbastos.github.io/VidFlow/" type="link">
+                        <p >VidFlow</p>
+                        <img class="movies__img" src="./assets/vidflow.png" alt="Imagem do projeto Vidflow" id="vidFlow">
+                    </a>            
+                </div>
+                <div class="movies__item">
+                    <a href="https://elaine-nbastos.github.io/AluraPlus/" type="link">
+                        <p class="movies__title">Alura Plus</p>
+                        <img class="movies__img" src="./assets/AluraPlus.PNG" alt="Imagem do projeto AluraPlus" id="aluraPlus">
+                    </a>
+                </div>
             </div>
         </section>
-        <section id="container minhasRedes" class="container minhasRedes">
+        <section id="container minhasRedes" class="container__minhasRedes">
+            <h3 class="minhasRedes__title">Acesse minhas redes:</h3>
             <div class="minhasRedes__links">
-                <h2 class="title">Acesse minhas redes:</h2>
-                <a class="minhasRedes__links__item" href="https://github.com/elaine-nbastos">
-                    <img src="./assets/github.png" alt="Logotipo do Github"> Github</a>
-                <a class="minhasRedes__links__item" href="https://www.linkedin.com/in/elaine-bastos-23608742">
-                    <img src="./assets/linkedin-100.svg" alt="Logotipo do Github"> Linkedin</a>
+                <div class="minhasRedes__links__itens">
+                    <a class="minhasRedes__links__item" href="https://github.com/elaine-nbastos">
+                        <p>Github</p>
+                        <img src="./assets/icons8-github-128.png" alt="Logotipo do Github"> 
+                    </a>
+                </div>
+                <div class="minhasRedes__links__itens">
+                    <a class="minhasRedes__links__item" href="https://www.linkedin.com/in/elaine-bastos-23608742">
+                        <p>Linkedin</p>
+                        <img src="./assets/icons8-linkedin-96.png" alt="Logotipo do Github"> 
+                    </a>
+                </div>
             </div>
         </section>
-
+        <section id="container contato" class="container__contato">
+            <h2 class="contato__title">Contato</h2>
+            <div class="contato__links">
+                <a class="contato__links__item" href="mailto:elaineb80@hotmail.com" target="_blank">
+                    <p> E-mail</p>
+                    <img src="./assets/icons8-nova-mensagem-96.png" alt="Logotipo de Carta"> 
+                </a>
+                <a class="contato__links__item" href="http://api.whatsapp.com/send?phone=5512983171565&text=Gpstaroa%20de%20receber%20mais%20informações?" target="_blank">
+                    <p>WhatsApp</p> 
+                    <img src="./assets/icons8-whatsapp-100.png" alt="Logotipo do WhatsApp"> 
+                </a>
+            </div>
+        </section>
     </main>
     <footer class="rodape">
         <p>Desenvolvido por Elaine Bastos.</p>

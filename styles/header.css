@@ -2,23 +2,37 @@
 
 /* INICIO DE HEADER */
 
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+
+}
+
 .header{
     box-sizing: border-box;
+    position: fixed;
+    height: 4rem;
     width: 100%;
-    margin: 5% 0;
-    padding: 2% 0% 0% 2%;
+    margin-bottom: 3rem;
+    padding: 0;
     justify-content: space-around;
+    align-items: center;
     font-family: var(--fonte-primaria);
     font-size: 1.5rem;
     font-weight: 100;
     color: var(--cor-fonte-primaria);
     display: flex;
     text-decoration: none;
+    border-bottom: solid 2px var(--cor-fonte-terciaria);
 }
 
-.burguer{
+#burguer{
     background-color:transparent;
-    display: inline-block;
+    position: absolute;
+    top: 10%;
+    left: 20%;
     color: var(--cor-fonte-padrao);
     text-align: center;
     padding: 10px;
@@ -34,14 +48,19 @@
     background-color: var(--cor-fonte-terciaria);
     color: var(--cor-fonte-padrao);
     position: relative;
-    top:1px;
-    left:2px
+    top: 0;
+    left: -27rem
 }
 
-
-
 .list{
+    width: 15rem;
+    background-color: var(--cor-fonte-terciaria);
     list-style-type: none;
+    position: absolute;
+}
+
+.item{
+    color: var(--cor-fonte-padrao);
 }
 
 .item:link{
@@ -56,7 +75,25 @@
 
 .container__toggle{
     width: 20px;
+    display: flex;
+    position: absolute;
+    top: -2rem;
+    left: 80%;
 }
+
+.menu__title{
+    position: absolute;
+    align-items:start;
+    text-decoration: none;
+    color: var(--cor-fonte-padrao);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.menu__title h2{
+    align-items: start;
+}
+
 
 
 /* FIM DE HEADER */
