@@ -355,3 +355,31 @@
 
 /* FIM DE CONTATO */
 
+@media (max-width: 940px){
+
+    .container__apresentacao{
+        flex-direction: column-reverse;
+    }
+
+    .apresentacao__conteudo__titulo{
+        font-size: 2rem;
+    }
+
+    .titulo__destaque{
+        font-size: 2rem;
+    }
+
+    .apresentacao__conteudo__subtitulo{
+        font-size: 1rem;
+    }
+
+.box{
+    grid-template-columns: 1fr 1fr;
+}
+
+.movies{
+    display: flex;
+    flex-direction: column;
+}
+
+}
