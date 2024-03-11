@@ -373,29 +373,30 @@
         font-size: 1rem;
     }
 
-.box{
-    grid-template-columns: 1fr 1fr;
-}
+    .box{
+        margin: 4rem 4rem;
+        grid-template-columns: 1fr 1fr;
+    }
 
-.cards{
-    width: 100px;
-    height: 80px;
-    gap:1rem
-}
+    .cards{
+        width: 100px;
+        height: 80px;
+        gap:1rem
+    }
 
-.cards img{
-    width: 50px;
-    height: 50px;
-}
+    .cards img{
+        width: 50px;
+        height: 50px;
+    }
 
-.cards span{
-    font-size: 1rem;
-    padding: 0;
-}
+    .cards span{
+        font-size: 1rem;
+        padding: 0;
+    }
 
-.movies{
-    display: flex;
-    flex-direction: column;
-}
+    .movies{
+        display: flex;
+        flex-direction: column;
+    }
 
 }
