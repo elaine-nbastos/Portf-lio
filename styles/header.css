@@ -99,3 +99,26 @@ header{
 
 
 /* FIM DE HEADER */
+
+@media (max-width:720px){
+
+    header{
+        margin-top: 1rem;
+    }
+
+    .header{
+        height: 3rem;
+    }
+
+    #itens{
+        left: -5rem
+    }
+
+    .list{
+        width: 6rem;
+    }
+
+    .list__itens{
+        font-size: 1rem;
+    }
+}
