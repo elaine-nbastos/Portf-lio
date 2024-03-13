@@ -111,7 +111,8 @@ header{
     }
 
     #itens{
-        left: -5rem
+        top: -1rem;
+        left: -7rem
     }
 
     .list{
