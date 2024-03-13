@@ -4,15 +4,16 @@
 
 
 header{
+
     display: flex;
     justify-content: space-between;
-    margin-top: 3rem;
-    z-index: 1;
     background-color: var(--cor-planoDeFundo);
 
 }
 
 .header{
+    z-index: 1;
+    background-color: var(--cor-planoDeFundo);
     box-sizing: border-box;
     position: fixed;
     height: 4rem;
