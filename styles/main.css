@@ -1,51 +1,51 @@
 /* INICIO DE APRESENTAÇÃO*/
 
-.container__apresentacao{                                                                        
+.container__apresentacao {
     margin: 10% 20%;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 5rem;
 }
 
-.apresentacao__conteudo{
+.apresentacao__conteudo {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 4rem;
 }
 
-.apresentacao__conteudo__intro{
+.apresentacao__conteudo__intro {
     display: flex;
     flex-direction: column;
 
 }
 
-.apresentacao__conteudo__titulo{
+.apresentacao__conteudo__titulo {
     font-size: 3rem;
     font-family: var(--fonte-terciaria);
     font-weight: 400;
     color: var(--cor-fonte-padrao)
 }
 
-.titulo__destaque{
+.titulo__destaque {
     color: var(--cor-fonte-terciaria);
     font-weight: 500;
     font-size: 3.5rem;
 }
 
-.apresentacao__conteudo__subtitulo{
+.apresentacao__conteudo__subtitulo {
     padding: 0;
     color: var(--cor-fonte-primaria);
     font-weight: 100;
 }
 
-.actions{
+.actions {
     display: flex;
     gap: 2.5rem;
 }
 
-.actions__cv{
+.actions__cv {
     width: 9rem;
     background: linear-gradient(90deg, rgba(121, 48, 190, 0.648) 100%, rgba(130, 87, 230, 0.8) .2%);
     color: var(--cor-fonte-padrao);
@@ -60,15 +60,15 @@
     border: none;
 }
 
-.actions__cv:hover{
+.actions__cv:hover {
     transform: scale(1.1);
 }
 
-.actions a{
+.actions a {
     justify-content: center;
 }
 
-.actions__email{
+.actions__email {
     width: 9rem;
     background: linear-gradient(90deg, rgba(121, 48, 190, 0.648) 100%, rgba(130, 87, 230, 0.8) .2%);
     color: var(--cor-fonte-padrao);
@@ -85,12 +85,12 @@
     cursor: pointer;
 }
 
-.actions__email:hover{
+.actions__email:hover {
     transform: scale(1.1);
 }
 
-.apresentacao__imagem{
-    align-items:end;
+.apresentacao__imagem {
+    align-items: end;
     width: 30%;
 }
 
@@ -99,28 +99,28 @@
 
 /* INICIO DE SOBRE MIM */
 
-.container__about{
+.container__about {
     margin: 15% 30%;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-weight: 100;
     flex-direction: column;
-    transform:translateX(7) ;
+    transform: translateX(7);
     opacity: 1;
     transition: 0.5s;
-    gap:8rem;
+    gap: 8rem;
     padding: 3rem 1rem;
 }
 
-.about__title{
+.about__title {
     padding: 1rem;
     color: var(--cor-fonte-padrao);
     font-weight: 600;
     font-size: 2.5rem;
 }
 
-.about__conteudo__paragrafo{
+.about__conteudo__paragrafo {
     padding: 1rem;
     color: var(--cor-fonte-primaria);
     font-size: 1.5rem;
@@ -130,7 +130,7 @@
 
 /* INICIO DE HABILIDADES */
 
-.container__habilidades{
+.container__habilidades {
     margin: 15% 30%;
     display: flex;
     justify-content: center;
@@ -138,7 +138,7 @@
     padding: 3rem 1rem;
 }
 
-.habilidades__title{
+.habilidades__title {
     margin: 8rem;
     color: var(--cor-fonte-padrao);
     font-weight: 600;
@@ -148,7 +148,7 @@
     padding: 3rem;
 }
 
-.box{
+.box {
     margin: 8rem 12rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -157,7 +157,7 @@
     margin-bottom: 1px;
 }
 
-.cards{
+.cards {
     background-color: var(--cor-fonte-quaternaria);
     display: flex;
     flex-direction: column;
@@ -168,16 +168,16 @@
     padding-bottom: 20px;
     border-radius: 12px;
     border-bottom: 15px solid var(--cor-fonte-hover);
-    
+
 }
 
-.cards img{
+.cards img {
     width: 100px;
     height: 100px;
     align-content: end;
 }
 
-.box span{
+.box span {
     padding: 16px;
     position: relative;
     color: var(--cor-fonte-hover);
@@ -189,17 +189,17 @@
 
 /* INICIO DE PROJETOS */
 
-.projetos__title{
+.projetos__title {
     margin: 8rem;
     color: var(--cor-fonte-padrao);
     font-weight: 600;
     font-size: 2.5rem;
     display: flex;
     justify-content: center;
-    padding: 3rem;    
+    padding: 3rem;
 }
 
-.movies{
+.movies {
     margin: 8rem 12rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -209,22 +209,22 @@
     padding: 1rem;
 }
 
-.movies:link{
+.movies:link {
     text-decoration: none;
     color: var(--cor-fonte-padrao);
 }
 
-.movies:hover{
+.movies:hover {
     text-decoration: none;
     color: var(--cor-fonte-primaria);
 }
 
-.movies__item{
+.movies__item {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:1rem;
+    gap: 1rem;
     padding: 1rem;
     cursor: pointer;
     opacity: 0.7;
@@ -233,33 +233,34 @@
     color: var(--cor-fonte-padrao);
 }
 
-.movies__item:hover{
-    opacity: 1; 
+.movies__item:hover {
+    opacity: 1;
 }
 
-.movies__item a{
+.movies__item a {
     text-decoration: none;
     color: var(--cor-fonte-padrao);
 }
 
-.movies__title{
+.movies__title {
     align-items: center;
     justify-content: center;
 }
 
-.movies__title{
+.movies__title {
     display: flex;
     align-items: center;
 }
 
-.movies__img{
+.movies__img {
     width: 300px;
 }
 
-.movies__img:hover{
+.movies__img:hover {
     transition: 0.4s;
     transform: scale(1.3);
 }
+
 /* FIM DE PROJETOS */
 
 
@@ -269,13 +270,13 @@
 
 /* INICIO DE MINHAS REDES */
 
-.container__minhasRedes{
+.container__minhasRedes {
     display: flex;
     flex-direction: column;
-    margin: 0 ;
+    margin: 0;
 }
 
-.minhasRedes__title{
+.minhasRedes__title {
     margin-bottom: 5rem;
     font-size: 2rem;
     display: flex;
@@ -283,62 +284,68 @@
     justify-content: center;
 }
 
-.minhasRedes__links{
+.minhasRedes__links {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.minhasRedes__links__itens{
+.minhasRedes__links__itens {
     display: flex;
     flex-direction: column;
 }
 
-.minhasRedes__links__itens{
+.minhasRedes__links__itens {
     display: flex;
     flex-direction: column;
 }
 
-.minhasRedes__links__item{
+.minhasRedes__links__item {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.minhasRedes__links__item:link{
+.minhasRedes__links__item:hover {
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+
+.minhasRedes__links__item:link {
     text-decoration: none;
     color: var(--cor-fonte-terciaria);
 }
 
-.minhasRedes__links__item img{
+.minhasRedes__links__item img {
     width: 100px;
 }
 
-.minhasRedes__links__item p{
+.minhasRedes__links__item p {
     text-decoration: none;
     color: var(--cor-fonte-padrao);
 }
+
 /* FIM DE MINHAS REDES */
 
 
 
 /* INICIO DE CONTATO */
-.container__contato{
+.container__contato {
     width: 80%;
     font-weight: 100;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin:1% 8%;
-    transform:translateX(7) ;
+    margin: 1% 8%;
+    transform: translateX(7);
     opacity: 1;
     transition: 0.5s;
-    gap:1rem;
+    gap: 1rem;
     padding: 1rem 1rem;
 }
 
-.contato__title{
+.contato__title {
 
     padding: 1rem;
     color: var(--cor-fonte-padrao);
@@ -346,158 +353,180 @@
     font-size: 2.5rem;
 }
 
-.contato__links{
+.contato__links {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 3rem;
 }
 
-.contato__links__item{
+.contato__links__item {
     display: flex;
     flex-direction: column;
     text-decoration: none;
     align-items: center;
 }
 
-.contato__links__item p{
+.contato__links__item:hover {
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+
+.contato__links__item p {
     color: var(--cor-fonte-padrao);
 }
 
-.contato__links__item img{
+.contato__links__item img {
     width: 100px;
 }
 
-.whatsapp{
+.whatsapp {
     width: 10px;
 }
 
 /* FIM DE CONTATO */
 
-@media (max-width: 720px){
+@media (max-width: 720px) {
 
-/*  INICIO DE CONTAINER APRESENTAÇÃO   */
+    /*  INICIO DE CONTAINER APRESENTAÇÃO   */
 
-    .container__apresentacao{
+    .container__apresentacao {
         flex-direction: column-reverse;
         margin-top: 25%;
         gap: 1rem;
     }
 
-    .apresentacao__conteudo{
+    .apresentacao__conteudo {
         width: 80%;
         gap: 1rem;
     }
 
-    .apresentacao__conteudo__titulo{
+    .apresentacao__conteudo__titulo {
         font-size: 1rem;
     }
 
-    .titulo__destaque{
+    .titulo__destaque {
         font-size: 1.3rem;
     }
 
-    .apresentacao__conteudo__subtitulo{
+    .apresentacao__conteudo__subtitulo {
         font-size: 0.75rem;
     }
 
-    .apresentacao__imagem{
+    .apresentacao__imagem {
         width: 40%;
     }
 
-    .actions{
+    .actions {
         flex-direction: column;
-        gap:1rem;
+        gap: 1rem;
     }
 
-    .actions__cv{
+    .actions__cv {
         width: 8rem;
         height: .75rem;
         font-size: .75rem;
     }
 
-    .actions__cv p{
+    .actions__cv p {
         align-items: center;
         justify-content: center;
     }
 
-    .actions__email{
+    .actions__email {
         width: 8rem;
         height: .75rem;
         font-size: .75rem;
     }
 
-/*  FIM    */
+    /*  FIM    */
 
-/*  INICIO DE SOBRE MIM RESPONSIVO 720PX*/
+    /*  INICIO DE SOBRE MIM RESPONSIVO 720PX*/
 
-    .container__about{
+    .container__about {
         margin: 40% 10%;
         gap: 4rem;
     }
 
-    .about__title{
+    .about__title {
         font-size: 1.5rem;
     }
 
-    .about__conteudo__paragrafo{
+    .about__conteudo__paragrafo {
         font-size: 1rem;
     }
 
-/*  FIM */
+    /*  FIM */
 
-/*  INICIO DE CONTAINER HABILIDADES RESPONSIVO 720PX */
-    
-    .container__habilidades{
+    /*  INICIO DE CONTAINER HABILIDADES RESPONSIVO 720PX */
+
+    .container__habilidades {
         margin: 45% 10%;
         padding: 0;
     }
 
-    .habilidades__title{
+    .habilidades__title {
         margin: 0;
         font-size: 1.5rem;
         padding: 1rem;
     }
 
-    .box{
+    .box {
         margin: 4rem 4rem;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .cards{
+    .cards {
         width: 100px;
         height: 80px;
-        gap:1rem
+        gap: 1rem
     }
 
-    .cards img{
+    .cards img {
         width: 50px;
         height: 50px;
     }
 
-    .cards span{
+    .cards span {
         font-size: 1rem;
         padding: 0;
     }
-/*  FIM */
 
-/*  INICIO DE CONTAINER PROJETOS    */
+    /*  FIM */
 
-    .projetos__title{
+    /*  INICIO DE CONTAINER PROJETOS    */
+
+    .projetos__title {
         margin: 0;
         font-size: 1.5rem;
     }
 
-    .movies{
+    .movies {
         display: flex;
         flex-direction: column;
         margin: 1rem;
         gap: 1rem;
-        padding:0;
-    }
-
-    .movies__item{
         padding: 0;
     }
+
+    .movies__item {
+        padding: 0;
+    }
+
+    /* INICIO DE MINHAS REDES RESPONSIVIDADE 720PX  */
+
+    .minhasRedes__title {
+        font-size: 1.5rem;
+    }
+
+    /*  FIM     */
+
+    /*  INICIO DE CONTATOS RESPONSIVO 720PX     */
+
+    .contato__title {
+        font-size: 1.5rem;
+    }
+
+    /*  FIM     */
 
 }
