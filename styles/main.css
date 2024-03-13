@@ -99,7 +99,7 @@
 
 /* INICIO DE SOBRE MIM */
 
-.about{
+.container__about{
     margin: 15% 30%;
     display:flex;
     align-items:center;
@@ -203,7 +203,7 @@
     margin: 8rem 12rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
+    text-align: center;
     justify-content: center;
     gap: 2rem;
     padding: 1rem;
@@ -427,15 +427,41 @@
         font-size: .75rem;
     }
 
-/*  FIM DE CONTAINER APRESENTAÇÃO    */
+/*  FIM    */
 
+/*  INICIO DE SOBRE MIM RESPONSIVO 720PX*/
 
+    .container__about{
+        margin: 40% 10%;
+        gap: 4rem;
+    }
 
-/*  INICIO DE CONTAINER HABILIDADES */
+    .about__title{
+        font-size: 1.5rem;
+    }
+
+    .about__conteudo__paragrafo{
+        font-size: 1rem;
+    }
+
+/*  FIM */
+
+/*  INICIO DE CONTAINER HABILIDADES RESPONSIVO 720PX */
+    
+    .container__habilidades{
+        margin: 45% 10%;
+        padding: 0;
+    }
+
+    .habilidades__title{
+        margin: 0;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
 
     .box{
         margin: 4rem 4rem;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .cards{
@@ -457,9 +483,21 @@
 
 /*  INICIO DE CONTAINER PROJETOS    */
 
+    .projetos__title{
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
     .movies{
         display: flex;
         flex-direction: column;
+        margin: 1rem;
+        gap: 1rem;
+        padding:0;
+    }
+
+    .movies__item{
+        padding: 0;
     }
 
 }
