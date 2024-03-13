@@ -380,7 +380,7 @@
 
     .container__apresentacao{
         flex-direction: column-reverse;
-        margin-top: 30%;
+        margin-top: 25%;
         gap: 1rem;
     }
 
