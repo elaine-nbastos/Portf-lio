@@ -31,6 +31,12 @@
 
 /* FIM DE SOBRE MIM */
 
+@media (max-width:1025px){
+    .container__about{
+        margin: 30% 20%;
+    }
+}
+
 @media (max-width:720px) {
     
     /*  INICIO DE SOBRE MIM RESPONSIVO 720PX*/

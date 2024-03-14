@@ -74,6 +74,18 @@
 
 /* FIM DE PROJETOS */
 
+@media (max-width:1024px){
+
+    .container__projetos{
+        margin: 0 5rem;
+        padding: 0 1rem;
+    }
+
+    .movies__img{
+        width: 200px;
+    }
+}
+
 @media(max-width:720px){
         /*  INICIO DE CONTAINER PROJETOS    */
 
