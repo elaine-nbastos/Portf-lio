@@ -12,12 +12,14 @@
 @import url("./networks.css");
 
 :root{
-    --cor-planoDeFundo: #101622;
+    --cor-planoDeFundo: white;
+    --cor-planoDeFundo-dark: black;
 
     --cor-fonte-primaria: #ffffff70;
     --cor-fonte-secundaria: #7717d3;
     --cor-fonte-terciaria: #de639a;
-    --cor-fonte-padrao: #fff;
+    --cor-fonte-padrao: black;
+    --cor-fonte-padrao-dark: white;
     --cor-fonte-quaternaria: #f7b2b7;
 
     --cor-fonte-hover: #7f2982;
