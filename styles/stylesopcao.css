@@ -149,3 +149,10 @@
         color: var(--cor-fonte-primaria-dark) !important;
     }
 }
+
+@media (max-width: 780px) {
+
+    #sobreMim #conteudo{
+        flex-direction: column-reverse;
+    }
+}
