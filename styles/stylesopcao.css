@@ -104,6 +104,10 @@
     .dropdown-divider{
         --bs-dropdown-divider-bg:white;
     }
+
+    .border{
+       --bs-border-color: #b1087e;
+    }
 }
 
 [data-bs-theme="dark"]{
