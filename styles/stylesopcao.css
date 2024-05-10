@@ -20,14 +20,13 @@
     --fonte-secundaria: 'Montserrat', sans-serif;
     --fonte-terciaria: "Poppins", sans-serif;
 
-    --cor-btn: linear-gradient(90deg, rgba(121, 48, 190, 0.648) 100%, rgba(130, 87, 230, 0.8) .2%);
+    --cor-btn: linear-gradient(90deg, rgba(121, 48, 190, 0.648) 100%, white .2%);
 
     /*DARK MODE*/
 
-    --cor-planoDeFundo-dark: #353232;
+    --cor-planoDeFundo-dark: linear-gradient(to bottom,#212529, #989090);
 
     --cor-fonte-primaria-dark: #9c9c9c;
-
 }
 
 .strong {
@@ -37,27 +36,36 @@
 .bg-lilas {
     background-color: #eb57bf !important;
     color: white;
-
 }
+
+#avatar-Elaine{
+
+    background-color: #7f2982 !important;
+}
+
 
 [data-bs-theme="light"] {
 
-    --bs-body-bg: var(--cor-planoDeFundo);
-    --bs-border-width: 2px;
-
-
-    .bg-img {
-        background-image: linear-gradient(to left, transparent 0%, #fff 50%), url('../assets/maos-codando.jpeg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+    header{
+        background-image: linear-gradient(to bottom, #de639a, white );
     }
 
-    .form-check-input {
+    main{
+        background-image: linear-gradient(to bottom, #de639a, white );
+    }
+
+    .form-check-input{
         background-color: white;
         border-color: #de639a;
     }
 
+    .bg-img {
+        background-image: linear-gradient(to left, transparent 0%, #fff 30%), url('../assets/maos-codando.jpeg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+  
     .form-check-input:checked {
         background-color: #de639a;
         border-color: #de639a;
@@ -107,11 +115,16 @@
     .border {
         --bs-border-color: #b1087e;
     }
+
+    hr{
+        border-bottom: 4px solid #212529;
+        box-sizing: border-box;
+        width: 100%;
+    
+    }
 }
 
 [data-bs-theme="dark"] {
-
-    --bs-body-bg: var(--cor-planoDeFundo-dark);
 
     .btn {
         --bs-btn-bg: #eb57bf;
@@ -129,8 +142,8 @@
         color: #a7a7a7;
     }
 
-    body {
-        color: var(--cor-fonte-padrao-dark);
+    header{
+        background-color: #2a2828;
     }
 
     .bg-img {
@@ -138,6 +151,12 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+    }
+    hr{
+        border-bottom: 2px solid #b1087e;
+        box-sizing: border-box;
+        width: 100%;
+    
     }
 
     .form-check-input:checked {
